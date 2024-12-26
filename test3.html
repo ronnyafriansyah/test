@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Countdown with Background</title>
+    <style>
+        /* Menambahkan background kustom */
+        body {
+            background-image: url('your-background-image.jpg'); /* Ganti dengan URL gambar background Anda */
+            background-size: cover; /* Menyesuaikan gambar dengan ukuran layar */
+            background-position: center center;
+            background-attachment: fixed; /* Membuat background tetap saat scrolling */
+            height: 100vh; /* Menyesuaikan tinggi layar */
+            margin: 0; /* Menghapus margin default */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #tickcounter-container {
+            background: rgba(0, 0, 0, 0.5); /* Transparansi hitam untuk teks lebih jelas */
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Container untuk countdown -->
+    <div id="tickcounter-container">
+        <!-- Tempatkan embed code dari TickCounter di sini -->
+        <iframe src="https://www.tickcounter.com/countdown/your-countdown-id" width="100%" height="200" frameborder="0"></iframe>
+    </div>
+</body>
+</html>
